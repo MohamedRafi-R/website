@@ -29,7 +29,6 @@ Publish the website in the given URL.
 ```
 home.html
 
-<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -54,13 +53,11 @@ home.html
     </div>
   </nav>
 
-  <!-- Hero Section -->
   <section class="hero" id="home">
     <h1 style="color: #ab8445;">Welcome to Delicious Bites</h1>
     <p style="color: #1f1e1b;">Experience gourmet flavors with fresh ingredients and passionate chefs.</p> 
   </section>
-
-  <!-- Menu Section -->
+ 
   <section class="menu" id="menu">
     <h2>Top Foods From Our Menu</h2>
     <div class="menu-items">
@@ -87,7 +84,7 @@ home.html
     </div>
   </section>
 
-  <!-- Chefs Section -->
+  
 <section class="chefs" id="chefs">
     <h2>Meet Our Chefs</h2>
     <div class="chef-cards">
@@ -115,7 +112,7 @@ home.html
   </section>
   
 
-  <!-- About Section -->
+  
   <section class="about" id="about">
     <h2>About Us</h2>
     <img src="restaurant.jpg" alt="" style="width: 100%; max-width: 800px; border-radius: 12px; margin-bottom: 1rem;">
@@ -126,7 +123,7 @@ home.html
     </p>
   </section>
 
-  <!-- Footer -->
+  
   <footer id="contact">
 
     <p>123 Flavor Street, Foodie City, FL 12345</p>
@@ -140,7 +137,6 @@ home.html
 ```
 style.css
 
-/* Global Styles */
 * {
     margin: 0;
     padding: 0;
@@ -154,7 +150,6 @@ style.css
     background-color: #fff;
   }
   
-  /* Navigation */
   nav {
     background-color: #ab8445;
     padding: 1rem 2rem;
@@ -174,7 +169,6 @@ style.css
     color: #f39c12;
   }
   
-  /* Hero Section */
   .hero {
     background: url('background.jpg') center/cover no-repeat;
     height: 90vh;
@@ -198,7 +192,6 @@ style.css
     max-width: 600px;
   }
   
-  /* Menu Section */
   .menu {
     padding: 4rem 2rem;
     background-color: #ab8445;
@@ -233,7 +226,6 @@ style.css
     color: #666;
   }
   
-  /* About Section */
   .about {
     background: url(blur.jpg) center/cover no-repeat;
     background-color: #ffffff;
@@ -253,8 +245,7 @@ style.css
     font-size: 1.1rem;
     color: #ffffff;
   }
-  
-  /* Contact / Footer */
+ 
   footer {
     background-color: #ffffff;
     color: #ffffff;
@@ -267,8 +258,7 @@ style.css
   footer p {
     margin: 0.5rem 0;
   }
-  
-  /* Responsive Tweaks */
+ 
   @media (max-width: 768px) {
     .hero h1 {
       font-size: 4.5rem;
